@@ -1,0 +1,7 @@
+{
+  "name": "reloj",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
