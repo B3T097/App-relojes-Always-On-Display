@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "kid-font";
+    src: url("../../../assets/fonts/Kid_Font_.ttf");
+}
+
+.background {
+    font-family: "kid-font";
+    background-image: url("../../../assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hora {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hora {
+    font-size: 5rem;
+}
+#segundos {
+    position: relative;
+    top: -1.8rem;
+    left: 0.6rem;
+    font-size: 1.8rem;
+}
+
+.fecha {
+    position: absolute;
+    bottom: 20px;
+    font-size: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    #hora {
+        font-size: 12rem;
+    }
+    #segundos {
+        top: -5rem;
+        left: 1rem;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .fecha {
+        bottom: 15px;
+        font-size: 3rem;
+    }
+}
